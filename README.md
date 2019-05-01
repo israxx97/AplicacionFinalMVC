@@ -1,11 +1,11 @@
 # AplicacionFinalMVC
 Se creará una aplicación en PHP con la arquitectuca Modelo Vista Controlador. Los objetivos serán los siguientes:
 * Administración de usuarios.
-- [ ] Iniciar sesión.
-- [ ] Borrar sesión.
-- [ ] Registrarse.
-- [ ] Editar perfil.
-- [ ] Borrar cuenta.
+- [x] Iniciar sesión.
+- [x] Borrar sesión.
+- [x] Registrarse.
+- [x] Editar perfil.
+- [x] Borrar cuenta.
 - [ ] Modificar contraseña.
 * Mantenimiento de departamentos.
 - [ ] Exportar.
@@ -21,3 +21,5 @@ Se creará una aplicación en PHP con la arquitectuca Modelo Vista Controlador. 
 - [ ] Usar un servicio SOAP propio.
 - [ ] Usar un servicio REST ajeno.
 - [ ] Usar un servicio REST propio.
+## v0.1 - 01/05/2019, 15:02
+Esta versión comenzará con la versión 0.4 de la aplicación [AplicacionLogInLogOffMVC](https://github.com/israxx97/AplicacionLogInLogOffMVC).
