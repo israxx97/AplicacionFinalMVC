@@ -1,0 +1,31 @@
+Fecha del error: 06-05-2019, 18:59:36
+Fichero del error: I:\xampp\htdocs\index_03\index\ProyectoDWES\ProyectoTema06\codigoPHP\AplicacionFinalMVC\model\DBPDO.php
+Linea del error: 13
+Código del error: 42000
+Mensaje del error: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+Fecha del error: 06-05-2019, 20:52:15
+Fichero del error: I:\xampp\htdocs\index_03\index\ProyectoDWES\ProyectoTema06\codigoPHP\AplicacionFinalMVC\model\DBPDO.php
+Linea del error: 13
+Código del error: 42000
+Mensaje del error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'todos' at line 1
+Fecha del error: 06-05-2019, 20:52:28
+Fichero del error: I:\xampp\htdocs\index_03\index\ProyectoDWES\ProyectoTema06\codigoPHP\AplicacionFinalMVC\model\DBPDO.php
+Linea del error: 13
+Código del error: 42000
+Mensaje del error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'todos' at line 1
+Fecha del error: 06-05-2019, 20:55:51
+Fichero del error: I:\xampp\htdocs\index_03\index\ProyectoDWES\ProyectoTema06\codigoPHP\AplicacionFinalMVC\model\DBPDO.php
+Linea del error: 13
+Código del error: 42000
+Mensaje del error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'todos' at line 1
+Fecha del error: 06-05-2019, 21:13:39
+Fichero del error: I:\xampp\htdocs\index_03\index\ProyectoDWES\ProyectoTema06\codigoPHP\AplicacionFinalMVC\model\DBPDO.php
+Linea del error: 13
+Código del error: 42000
+Mensaje del error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'todos' at line 1
+Fecha del error: 06-05-2019, 21:37:19
+Fichero del error: I:\xampp\htdocs\index_03\index\ProyectoDWES\ProyectoTema06\codigoPHP\AplicacionFinalMVC\model\DBPDO.php
+Linea del error: 13
+Código del error: 42S02
+Mensaje del error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'daw202_aplicacionloginlogoffmvc.t02_departamento' doesn't exist
+

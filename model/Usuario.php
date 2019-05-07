@@ -27,7 +27,9 @@ class Usuario {
     /**
      * @var type $descUsuario
      */
-    private $descUsuario;/**
+    private $descUsuario;
+
+    /**
      * @var type $numAccesos
      */
     private $numAccesos;

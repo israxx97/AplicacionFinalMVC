@@ -69,7 +69,7 @@
             <img class="d-block w-100" src="webroot/images/180503CasosDeUso.jpg" alt="Second slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="webroot/images/180503DiagramaDeClases.jpg" alt="Third slide">
+            <img class="d-block w-100" src="webroot/images/190505DiagramaDeClases.PNG" alt="Third slide">
         </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="webroot/images/180503ModeloFisicoDeDatos.jpg" alt="First slide">

@@ -24,9 +24,15 @@ if (isset($_REQUEST['editarPerfil'])) {
 }
 
 if (isset($_REQUEST['mtoDepartamentos'])) {
-    // $_SESSION['pagina'] = 'mtoDepartamentos';
-    $_SESSION['paginaAnterior'] = $_SESSION['pagina'];
-    $_SESSION['pagina'] = 'wip';
+    $_SESSION['pagina'] = 'mtoDepartamentos';
+    /* $_SESSION['paginaAnterior'] = $_SESSION['pagina'];
+      $_SESSION['pagina'] = 'wip'; */
+    header('Location: index.php');
+    exit;
+}
+
+if (isset($_REQUEST['rest'])) {
+    $_SESSION['pagina'] = 'rest';
     header('Location: index.php');
     exit;
 }

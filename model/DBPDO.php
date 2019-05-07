@@ -3,7 +3,7 @@
 require_once 'config/configDB_localhost.php';
 require_once 'model/Errores.php';
 
-class DBPDO {
+abstract class DBPDO {
 
     public static function ejecutaConsulta($sentenciaSQL, $parametros) {
         try {

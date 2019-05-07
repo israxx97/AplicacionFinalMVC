@@ -12,6 +12,8 @@ require_once 'core/validacionFormularios.php';
  * Archivos de los modelos.
  */
 require_once 'model/Usuario.php';
+require_once 'model/Departamento.php';
+require_once 'api/REST.php';
 
 
 /*

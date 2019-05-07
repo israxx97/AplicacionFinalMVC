@@ -9,6 +9,9 @@
                 <input type="submit" id="editarPerfil" style="margin-right: 5px;" class="btn btn-outline-info" name="editarPerfil" value="Editar Perfil"/>
             </li>
             <li class="nav-item">
+                <input type="submit" id="rest" style="margin-right: 5px;" class="btn btn-outline-info" name="rest" value="REST Propio"/>
+            </li>
+            <li class="nav-item">
                 <input type="submit" id="mtoDepartamentos" style="margin-right: 5px;" class="btn btn-outline-info" name="mtoDepartamentos" value="Mto. Departamentos"/>
             </li>
             <?php if ($_SESSION['usuario']->getPerfil() == 'administrador') { ?>
@@ -25,7 +28,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
-                    <a href="https://github.com/israxx97/AplicacionLogInLogOffMVC" target="_blank">
+                    <a href="https://github.com/israxx97/AplicacionFinalMVC" target="_blank">
                         <div class="redimensionar1"></div>
                     </a>
                     <div class="card-body">
@@ -35,11 +38,11 @@
             </div>
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
-                    <a href="https://bootswatch.com/" target="_blank">
-                        <div class="redimensionar2"></div>
+                    <a href="http://DAW-USGIT.sauces.local/" target="_blank">
+                        <div class="redimensionar8"></div>
                     </a>
                     <div class="card-body">
-                        <p class="card-text">Bootswatch</p>
+                        <p class="card-text">Git Lab</p>
                     </div>
                 </div>
             </div>
