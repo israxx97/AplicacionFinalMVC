@@ -55,7 +55,9 @@ define("RUTAEE", "http://192.168.20.18/DAW202/public_html/ProyectoDWES/ProyectoT
 </div>
 
 <div id='caja3'>
+ 
 ## v0.2.1 - 09/05/2019, 08:45 (Versión actual, inestable)
+
 En esta versión se ha implementado el REST ajeno.
    
 * controller
@@ -67,7 +69,9 @@ En esta versión se ha implementado el REST ajeno.
 </div>
 
 <div id='caja2'>
+   
 ## v0.2 - 08/05/2019, 00:43
+
 En esta versión se ha añadido la ventana del Mantenimiento de departamentos y el servicio REST propio.
 
 * api
@@ -103,6 +107,7 @@ En esta versión se ha añadido la ventana del Mantenimiento de departamentos y 
 </div>
 
 <div id='caja1'>
+   
 ## v0.1 - 01/05/2019, 15:02
 
 Esta versión comenzará con la versión 0.4 de la aplicación [AplicacionLogInLogOffMVC](https://github.com/israxx97/AplicacionLogInLogOffMVC).
