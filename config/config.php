@@ -40,6 +40,9 @@ define("MINIMOPRESUPUESTO", 1);
 define("LONGMAXTEXTOLIBRE", 250);
 define("LONGMINTEXTOLIBRE", 10);
 define("REGISTROSPAGINA", 3);
+define("RUTACASA", "http://localhost/index_03/index/ProyectoDWES/ProyectoTema06/codigoPHP/AplicacionFinalMVC/api/rest.json");
+define("RUTAED", "http://192.168.20.19/DAW202/public_html/ProyectoDWES/ProyectoTema06/codigoPHP/AplicacionFinalMVC/api/rest.json");
+define("RUTAEE", "http://192.168.20.18/DAW202/public_html/ProyectoDWES/ProyectoTema06/codigoPHP/AplicacionFinalMVC/api/rest.json");
 
 /*
  * Array de controladores.
