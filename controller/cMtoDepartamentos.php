@@ -9,8 +9,6 @@ if (isset($_REQUEST['cancelar'])) {
 $descDepartamento = '';
 $criterioBusqueda = '';
 
-$a_departamento = Departamento::buscaDepartamentosPorDescripcion($descDepartamento, $criterioBusqueda);
-
 if (isset($_REQUEST['criterioBusqueda'])) {
     if ($_REQUEST['criterioBusqueda'] == 'alta') {
         $criterioBusqueda = ' AND T02_FechaBajaDepartamento IS NULL';
@@ -22,6 +20,7 @@ if (isset($_REQUEST['criterioBusqueda'])) {
 }
 
 if (isset($_REQUEST['buscar'])) {
+    $descDepartamento = $_REQUEST['buscarPorDescripcion'];
     $a_departamento = Departamento::buscaDepartamentosPorDescripcion($descDepartamento, $criterioBusqueda);
     require_once $vistas['layout'];
 } else {

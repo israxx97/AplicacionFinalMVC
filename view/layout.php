@@ -33,7 +33,7 @@ if (isset($_SESSION['pagina'])) {
     </head>
     <body>
         <?php require_once $vista; ?>
-        <div class="container">
+        <div style="clear: both;" class="container">
             <p class="text-center">Copyright &copy;2019 | Desgined by Israel García Cabañeros</p>
             <ul class="social_footer_ul">
                 <li><a href="https://github.com/israxx97/AplicacionFinalMVC" target="_blank"><i class="fab fa-github"></i></a></li>

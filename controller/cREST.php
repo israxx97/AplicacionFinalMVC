@@ -1,9 +1,13 @@
 <?php
 
-require_once 'api/REST.php';
+require_once 'model/REST.php';
 require_once 'model/Cerveza.php';
 
 $cristal = new Cerveza();
+$_SESSION['cristalRespuestaSelect'] = '';
+
+$gafas = new REST();
+$_SESSION['gafasRespuestaSelect'] = '';
 
 if (isset($_REQUEST['cancelar'])) {
     $_SESSION['pagina'] = 'inicio';
@@ -20,6 +24,18 @@ if (isset($_REQUEST['buscarCristal'])) {
     $idCristal = $_REQUEST['idCristal'];
     $objCristal = Cerveza::buscarCristalPorId($idCristal);
     $_SESSION['cristalRespuesta'] = $objCristal;
+}
+
+if (isset($_REQUEST['buscarGafasSelect'])) {
+    $idGafas = $_REQUEST['seleccionarGafas'];
+    $objCristal = REST::getGafasPorId($idGafas);
+    $_SESSION['gafasRespuestaSelect'] = $objCristal;
+}
+
+if (isset($_REQUEST['buscarCristalSelect'])) {
+    $idCristal = $_REQUEST['seleccionarCristal'];
+    $objCristal = Cerveza::buscarCristalPorNombre($idCristal);
+    $_SESSION['cristalRespuestaSelect'] = $objCristal;
 }
 
 $_SESSION['pagina'] = 'rest';

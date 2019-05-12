@@ -10,6 +10,11 @@
  * @since 11/04/2019
  * @version 0.1
  */
+require_once 'model/AEMET.php';
+
+$paramEstacion = '2755X';
+$_SESSION['estacion'] = AEMET::datosDelTiempo($paramEstacion);
+
 if (isset($_REQUEST['cerrarSession'])) {
     unset($_SESSION['usuario']);
     session_destroy();
