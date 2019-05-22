@@ -1,9 +1,8 @@
 <?php
 
-require_once 'model/REST.php';
-require_once 'model/Cerveza.php';
+require_once 'api/REST.php';
 
-$cristal = new Cerveza();
+$cristal = new REST();
 $_SESSION['cristalRespuestaSelect'] = '';
 
 $gafas = new REST();
@@ -22,7 +21,7 @@ if (isset($_REQUEST['enviar'])) {
 
 if (isset($_REQUEST['buscarCristal'])) {
     $idCristal = $_REQUEST['idCristal'];
-    $objCristal = Cerveza::buscarCristalPorId($idCristal);
+    $objCristal = REST::buscarCristalPorId($idCristal);
     $_SESSION['cristalRespuesta'] = $objCristal;
 }
 
@@ -34,7 +33,7 @@ if (isset($_REQUEST['buscarGafasSelect'])) {
 
 if (isset($_REQUEST['buscarCristalSelect'])) {
     $idCristal = $_REQUEST['seleccionarCristal'];
-    $objCristal = Cerveza::buscarCristalPorNombre($idCristal);
+    $objCristal = REST::buscarCristalPorNombre($idCristal);
     $_SESSION['cristalRespuestaSelect'] = $objCristal;
 }
 

@@ -18,16 +18,16 @@ INSERT INTO T01_Usuarios (T01_CodUsuario, T01_Password, T01_DescUsuario, T01_Fec
 -- Inserción de datos en la tabla T02_Departamentos. --
 INSERT INTO T02_Departamentos (T02_CodDepartamento, T02_DescDepartamento, T02_FechaCreacionDepartamento, T02_VolumenDeNegocio, T02_FechaBajaDepartamento) VALUES
     ('AAA', 'Mi departamento AAA', 1554923890, 10, NULL),
-    ('AAB', 'Mi departamento AAB', 1554923890, 10, NULL),
+    ('AAB', 'Mi departamento AAB', 1554923890, 10, 1554923890),
     ('BBB', 'Mi departamento BBB', 1554923890, 10, NULL),
     ('BBC', 'Mi departamento BBC', 1554923890, 10, NULL),
-    ('CCC', 'Mi departamento CCC', 1554923890, 10, NULL),
-    ('CCD', 'Mi departamento CCD', 1554923890, 10, NULL),
-    ('DDD', 'Mi departamento DDD', 1554923890, 10, NULL),
+    ('CCC', 'Mi departamento CCC', 1554923890, 10, 1554923890),
+    ('CCD', 'Mi departamento CCD', 1554923890, 10, 1554923890),
+    ('DDD', 'Mi departamento DDD', 1554923890, 10, 1554923890),
     ('DDE', 'Mi departamento DDE', 1554923890, 10, NULL),
     ('EEE', 'Mi departamento EEE', 1554923890, 10, NULL),
     ('EEF', 'Mi departamento EEF', 1554923890, 10, NULL),
-    ('FFF', 'Mi departamento FFF', 1554923890, 10, NULL);
+    ('FFF', 'Mi departamento FFF', 1554923890, 10, 1554923890);
 
 -- Inserción de datos en la tabla T05_Gafas --
 INSERT INTO T05_Gafas (T05_IdGafas, T05_Name, T05_Modelo) VALUES 

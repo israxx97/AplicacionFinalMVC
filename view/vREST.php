@@ -8,6 +8,7 @@
     </form>
 </nav>
 <form class="container" name="formREST" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+    <p class="h3">REST Propio</p>
     <div class="form-group">
         <label class="h4" for="seleccionarGafas">Selecciona un tipo de gafas</label><br>
         <select class="col-lg-3" name="seleccionarGafas" id="seleccionarGafas" class="form-control">
@@ -25,14 +26,16 @@
     <?php
     if ($_SESSION['gafasRespuestaSelect'] != '') {
         ?>
-            <b>Id: </b><?php echo $_SESSION['gafasRespuestaSelect']['T05_IdGafas']; ?><br>
-            <b>Nombre: </b><?php echo $_SESSION['gafasRespuestaSelect']['T05_Name']; ?><br>
-            <b>Modelo: </b><?php echo $_SESSION['gafasRespuestaSelect']['T05_Modelo']; ?><br><br>
+        <b>Id: </b><?php echo $_SESSION['gafasRespuestaSelect']['T05_IdGafas']; ?><br>
+        <b>Nombre: </b><?php echo $_SESSION['gafasRespuestaSelect']['T05_Name']; ?><br>
+        <b>Modelo: </b><?php echo $_SESSION['gafasRespuestaSelect']['T05_Modelo']; ?><br><br>
         <?php
     }
     ?>
 </form>
+<hr style="border: 0.3px solid white;" class="container">
 <form class="container" name="formCristal2" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+    <p class="h3">REST Ajeno</p>
     <div class="form-group">
         <label class="h4" for="seleccionarCristal">Selecciona un vaso</label><br>
         <select class="col-lg-2" name="seleccionarCristal" id="seleccionarCristal" class="form-control">

@@ -64,55 +64,57 @@ class Departamento {
     }
 
     public static function buscaDepartamentosPorCodigo($codDepartamento) {
-        $departamento = null;
         $a_departamento = DepartamentoPDO::buscaDepartamentosPorCodigo($codDepartamento);
 
         if (!empty($a_departamento)) {
             $departamento = new Departamento($a_departamento['T02_CodDepartamento'], $a_departamento['T02_DescDepartamento'], $a_departamento['T02_FechaCreacionDepartamento'], $a_departamento['T02_VolumenDeNegocio'], $a_departamento['T02_FechaBajaDepartamento']);
+        } else {
+            $departamento = null;
         }
         return $departamento;
     }
 
-    public static function buscaDepartamentosPorDescripcion($descDepartamento, $criterioBusqueda) {
-        $departamentos = [];
-        $a_departamentos = [];
-        
-        $departamentos = DepartamentoPDO::buscaDepartamentosPorDescripcion($descDepartamento, $criterioBusqueda);
+    public static function buscaDepartamentosPorDescripcion($descDepartamento, $criterioBusqueda, $paginaActual, $numRegistrosPorPagina) {
+        $a_departamentos = DepartamentoPDO::buscaDepartamentosPorDescripcion($descDepartamento, $criterioBusqueda, $paginaActual, $numRegistrosPorPagina);
+        $a_objDepartamentos = [];
 
-        if (!empty($departamentos)) {
-            for ($i = 0; $i < count($departamentos); $i++) {
-                $a_departamentos[$i] = new Departamento($departamentos[$i]['T02_CodDepartamento'], $departamentos[$i]['T02_DescDepartamento'], $departamentos[$i]['T02_FechaCreacionDepartamento'], $departamentos[$i]['T02_VolumenDeNegocio'], $departamentos[$i]['T02_FechaBajaDepartamento']);
-            }
+        foreach ($a_departamentos as $a_departamento) {
+            $departamento = new Departamento($a_departamento['T02_CodDepartamento'], $a_departamento['T02_DescDepartamento'], $a_departamento['T02_FechaCreacionDepartamento'], $a_departamento['T02_VolumenDeNegocio'], $a_departamento['T02_FechaBajaDepartamento']);
+            array_push($a_objDepartamentos, $departamento);
         }
-        return $a_departamentos;
+        return $a_objDepartamentos;
     }
 
     public static function altaDepartamento($codDepartamento, $descDepartamento, $volumenNegocio) {
-        
+        return DepartamentoPDO::altaDepartamento($codDepartamento, $descDepartamento, $volumenNegocio);
     }
 
     public function bajaFisicaDepartamento() {
-        
+        return DepartamentoPDO::bajaFisicaDepartamento($this->getCodDepartamento());
     }
 
     public function bajaLogicaDepartamento() {
-        
+        return DepartamentoPDO::bajaLogicaDepartamento($this->getCodDepartamento());
     }
 
     public function modificaDepartamento($descDepartamento, $volumenNegocio) {
-        
+        return DepartamentoPDO::modificaDepartamento($this->getCodDepartamento(), $descDepartamento, $volumenNegocio);
     }
 
     public function rehabilitaDepartamento() {
-        
+        return DepartamentoPDO::rehabilitaDepartamento($this->getCodDepartamento());
     }
 
     public static function validaCodNoExiste($codDepartamento) {
-        
+        return DepartamentoPDO::validaCodNoExiste($codDepartamento);
     }
 
-    public static function importarDepartamentos($fichero) {
-        return DepartamentoPDO::importarDepartamentos($fichero);
+    public static function importarDepartamentos($codDepartamento, $descDepartamento, $fechaCreacionDepartamento, $volumenNegocio, $fechaBajaDepartamento) {
+        return DepartamentoPDO::importarDepartamentos($codDepartamento, $descDepartamento, $fechaCreacionDepartamento, $volumenNegocio, $fechaBajaDepartamento);
+    }
+
+    public static function contarDepartamentos($descDepartamento, $criterioBusqueda) {
+        return DepartamentoPDO::contarDepartamentos($descDepartamento, $criterioBusqueda);
     }
 
 }

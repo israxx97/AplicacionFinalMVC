@@ -3,49 +3,82 @@ Fichero del error: I:\xampp\htdocs\index_03\index\ProyectoDWES\ProyectoTema06\co
 Linea del error: 13
 Código del error: 42000
 Mensaje del error: SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
-Fecha del error: 06-05-2019, 20:52:15
+
+Fecha del error: 06-05-2019, 20:52:15
 Fichero del error: I:\xampp\htdocs\index_03\index\ProyectoDWES\ProyectoTema06\codigoPHP\AplicacionFinalMVC\model\DBPDO.php
 Linea del error: 13
 Código del error: 42000
 Mensaje del error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'todos' at line 1
-Fecha del error: 06-05-2019, 20:52:28
+
+Fecha del error: 06-05-2019, 20:52:28
 Fichero del error: I:\xampp\htdocs\index_03\index\ProyectoDWES\ProyectoTema06\codigoPHP\AplicacionFinalMVC\model\DBPDO.php
 Linea del error: 13
 Código del error: 42000
 Mensaje del error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'todos' at line 1
-Fecha del error: 06-05-2019, 20:55:51
+
+Fecha del error: 06-05-2019, 20:55:51
 Fichero del error: I:\xampp\htdocs\index_03\index\ProyectoDWES\ProyectoTema06\codigoPHP\AplicacionFinalMVC\model\DBPDO.php
 Linea del error: 13
 Código del error: 42000
 Mensaje del error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'todos' at line 1
-Fecha del error: 06-05-2019, 21:13:39
+
+Fecha del error: 06-05-2019, 21:13:39
 Fichero del error: I:\xampp\htdocs\index_03\index\ProyectoDWES\ProyectoTema06\codigoPHP\AplicacionFinalMVC\model\DBPDO.php
 Linea del error: 13
 Código del error: 42000
 Mensaje del error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'todos' at line 1
-Fecha del error: 06-05-2019, 21:37:19
+
+Fecha del error: 06-05-2019, 21:37:19
 Fichero del error: I:\xampp\htdocs\index_03\index\ProyectoDWES\ProyectoTema06\codigoPHP\AplicacionFinalMVC\model\DBPDO.php
 Linea del error: 13
 Código del error: 42S02
 Mensaje del error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'daw202_aplicacionloginlogoffmvc.t02_departamento' doesn't exist
-Fecha del error: 10-05-2019, 21:53:25
+
+Fecha del error: 10-05-2019, 21:53:25
 Fichero del error: I:\xampp\htdocs\index_03\index\ProyectoDWES\ProyectoTema06\codigoPHP\AplicacionFinalMVC\model\DBPDO.php
 Linea del error: 10
 Código del error: 2002
 Mensaje del error: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Host desconocido. 
-Fecha del error: 10-05-2019, 21:55:07
+
+Fecha del error: 10-05-2019, 21:55:07
 Fichero del error: I:\xampp\htdocs\index_03\index\ProyectoDWES\ProyectoTema06\codigoPHP\AplicacionFinalMVC\model\DBPDO.php
 Linea del error: 10
 Código del error: 2002
 Mensaje del error: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Host desconocido. 
-Fecha del error: 11-05-2019, 16:32:57
+
+Fecha del error: 11-05-2019, 16:32:57
 Fichero del error: I:\xampp\htdocs\index_03\index\ProyectoDWES\ProyectoTema06\codigoPHP\AplicacionFinalMVC\model\DBPDO.php
 Linea del error: 13
 Código del error: 42000
 Mensaje del error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ee' at line 1
-Fecha del error: 11-05-2019, 16:33:43
+
+Fecha del error: 11-05-2019, 16:33:43
 Fichero del error: I:\xampp\htdocs\index_03\index\ProyectoDWES\ProyectoTema06\codigoPHP\AplicacionFinalMVC\model\DBPDO.php
 Linea del error: 13
 Código del error: 42000
 Mensaje del error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ee' at line 1
-
+
+Fecha del error: 13-05-2019, 20:45:51
+Fichero del error: I:\xampp\htdocs\index_03\index\ProyectoDWES\ProyectoTema06\codigoPHP\AplicacionFinalMVC\model\DBPDO.php
+Linea del error: 13
+Código del error: 42000
+Mensaje del error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'todos' at line 1
+
+Fecha del error: 18-05-2019, 20:06:02
+Fichero del error: I:\xampp\htdocs\index_03\index\ProyectoDWES\ProyectoTema06\codigoPHP\AplicacionFinalMVC\model\DBPDO.php
+Linea del error: 10
+Código del error: 2002
+Mensaje del error: SQLSTATE[HY000] [2002] Se produjo un error durante el intento de conexi�n ya que la parte conectada no respondi� adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexi�n establecida ya que el host conectado no ha podido responder.
+
+Fecha del error: 18-05-2019, 20:07:22
+Fichero del error: I:\xampp\htdocs\index_03\index\ProyectoDWES\ProyectoTema06\codigoPHP\AplicacionFinalMVC\model\DBPDO.php
+Linea del error: 13
+Código del error: 42000
+Mensaje del error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'todos' at line 1
+
+Fecha del error: 19-05-2019, 14:48:07
+Fichero del error: I:\xampp\htdocs\index_03\index\ProyectoDWES\ProyectoTema06\codigoPHP\AplicacionFinalMVC\model\DBPDO.php
+Linea del error: 13
+Código del error: 42000
+Mensaje del error: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'todos' at line 1
+

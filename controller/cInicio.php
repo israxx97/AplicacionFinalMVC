@@ -10,10 +10,10 @@
  * @since 11/04/2019
  * @version 0.1
  */
-require_once 'model/AEMET.php';
+require_once 'api/REST.php';
 
 $paramEstacion = '2755X';
-$_SESSION['estacion'] = AEMET::datosDelTiempo($paramEstacion);
+$_SESSION['estacion'] = REST::datosDelTiempo($paramEstacion);
 
 if (isset($_REQUEST['cerrarSession'])) {
     unset($_SESSION['usuario']);

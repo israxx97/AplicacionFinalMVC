@@ -13,8 +13,8 @@ require_once 'core/validacionFormularios.php';
  */
 require_once 'model/Usuario.php';
 require_once 'model/Departamento.php';
-require_once 'model/REST.php';
-
+require_once 'api/REST.php';
+// require_once 'gafas/Gafas.php';
 
 /*
  * Constantes usadas para las funciones de la validación de formularios.
