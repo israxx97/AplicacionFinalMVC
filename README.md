@@ -1,9 +1,12 @@
 # AplicacionFinalMVC
+
 ## Índice
-1. [Uso del REST Propio](#cajaREST)
-2. [Versión 0.1](#caja1)
-3. [Versión 0.2](#caja2)
-4. [Versión 0.2.1](#caja3)
+
+1. [Versión 0.1](#caja1)
+2. [Versión 0.2](#caja2)
+3. [Versión 0.2.1](#caja3)
+4. [Versión 0.3](#caja4)
+5. [Versión 0.4](#caja5)
 
 Se creará una aplicación en PHP con la arquitectuca Modelo Vista Controlador. Los objetivos serán los siguientes:
 * Administración de usuarios.
@@ -18,45 +21,85 @@ Se creará una aplicación en PHP con la arquitectuca Modelo Vista Controlador. 
 - [ ] Importar.
 - [ ] Buscar departamentos por descripción.
 - [ ] Crear un departamento.
-- [ ] Consultar/Modificar un departamento.
-- [ ] Eliminar un departamento.
+- [x] Consultar/Modificar un departamento.
+- [x] Eliminar un departamento.
 - [ ] Baja lógica de un departamento.
 - [ ] Rehabilitar un departamento.
 * Otros.
 - [ ] Usar un servicio SOAP ajeno.
 - [ ] Usar un servicio SOAP propio.
-- [ ] Usar un servicio REST ajeno.
-- [ ] Usar un servicio REST propio.
-<div id='cajaREST'>
-## Guía de uso del REST Propio
-Lo que hará este REST es que, al introducir el id de un producto en un campo input de tipo texto, nos mostrará toda la información del producto si existe este producto en un archivo .json que hemos creado.
-   
-En primer lugar crearemos los archivos que vamos a utilizar:
-   
-* api
-    * REST.php.
-    * rest.json.
-* config
-    * config.php.
-* controller
-    * cREST.php.
-* view
-    * vREST.php.
-   
-El archivo config.php ya debería de estar creado, aquí solo introduciremos la/las nuevas constantes que van a contener la ruta del archivo .json con los datos.
+- [x] Usar un servicio REST ajeno.
+- [x] Usar un servicio REST propio.
 
-En mi caso tengo 3 constantes diferentes ya que trabajo en tres entornos distintos:
+<div id='caja5'>
 
-~~~
-define("RUTACASA", "http://localhost/index_03/index/ProyectoDWES/ProyectoTema06/codigoPHP/AplicacionFinalMVC/api/rest.json");
-define("RUTAED", "http://192.168.20.19/DAW202/public_html/ProyectoDWES/ProyectoTema06/codigoPHP/AplicacionFinalMVC/api/rest.json");
-define("RUTAEE", "http://192.168.20.18/DAW202/public_html/ProyectoDWES/ProyectoTema06/codigoPHP/AplicacionFinalMVC/api/rest.json");
-~~~
+## v0.4 - 22/05/2019, 12:20 (Versión actual, inestable)
+
+En esta versión se ha implementado la paginación inestable (no está del todo bien), y se han modificado algunas funciones.
+
+    * config
+        Modificado config.php
+    * controller
+        Añadido cEliminarDepartamento.php
+        Modificado cInicio.php
+        Añadido cModificarDepartamento.php
+        Añadido cMostrarDepartamento.php
+        Modificado cMtoDepartamentos.php
+        Modificado cREST.php
+    * model
+        DBPDO.php
+        Departamento.php
+        DepartamentoDB.php
+        DepartamentoPDO.php
+        Añadido RestDB.php
+        Añadido RestPDO.php
+    * scriptDB
+        02_Insercion.sql
+    * view
+        Añadido vEliminarDepartamento.php
+        Añadido vModificarDepartamento.php
+        Añadido vMostrarDepartamento.php
+        Modificado MtoDepartamentos.php
+        Modificado vREST.php
+    * Añadido .htaccess
+    * Modificado index.php
+
+</div>
+
+<div id='caja4'>
+    
+## v0.3 - 12/05/2019, 13:38
+
+En esta versión se ha implementado el REST ajeno del AEMET y el REST propio que podemos encontrar en este [enlace](https://github.com/israxx97/ApiREST).  
+
+  * api
+    * Borrado REST.php.
+    * Borrado rest.json.
+  * config
+    * Modificado config.php.
+    * Añadido configDB_inonos.php.
+  * controller
+    * Modificado cInicio.php.
+    * Modificado cMtoDepartamentos.php.
+    * Modificado cREST.php.
+  * model
+    * Añadido AEMET.php.
+    * Modificado Cerveza.php.
+    * Modificado DBPDO.php.
+    * Añadido REST.php.
+  * scriptDB
+    * Modificado 01_Creacion.sql.
+    * Modificado 02_Insercion.sql.
+  * view
+    * Modificado layout.php.
+    * Modificado vInicio.php.
+    * Modificado vREST.php.
+
 </div>
 
 <div id='caja3'>
  
-## v0.2.1 - 09/05/2019, 08:45 (Versión actual, inestable)
+## v0.2.1 - 09/05/2019, 08:45
 
 En esta versión se ha implementado el REST ajeno.
    
@@ -111,4 +154,5 @@ En esta versión se ha añadido la ventana del Mantenimiento de departamentos y 
 ## v0.1 - 01/05/2019, 15:02
 
 Esta versión comenzará con la versión 0.4 de la aplicación [AplicacionLogInLogOffMVC](https://github.com/israxx97/AplicacionLogInLogOffMVC).
+
 </div>

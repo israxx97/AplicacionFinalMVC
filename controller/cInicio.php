@@ -10,6 +10,11 @@
  * @since 11/04/2019
  * @version 0.1
  */
+require_once 'api/REST.php';
+
+$paramEstacion = '2755X';
+$_SESSION['estacion'] = REST::datosDelTiempo($paramEstacion);
+
 if (isset($_REQUEST['cerrarSession'])) {
     unset($_SESSION['usuario']);
     session_destroy();

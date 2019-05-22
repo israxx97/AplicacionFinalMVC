@@ -46,6 +46,12 @@ CREATE TABLE IF NOT EXISTS T04_Opiniones(
     ON DELETE CASCADE ON UPDATE CASCADE
 )Engine=InnoDB;
 
+CREATE TABLE IF NOT EXISTS T05_Gafas(
+    T05_IdGafas INT PRIMARY KEY AUTO_INCREMENT,
+    T05_Name VARCHAR(100) NOT NULL,
+    T05_Modelo enum('hombre', 'mujer', 'unisex')
+)Engine=InnoDB;
+
 -- Creacion del usuario usuarioDAW202_AplicacionLogInLogOffMVC. --
 CREATE USER IF NOT EXISTS 'usuarioDAW202_AplicacionLILOMVC'@'localhost' IDENTIFIED BY 'paso';
 

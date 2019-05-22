@@ -14,7 +14,7 @@ interface DepartamentoDB {
 
     public static function buscaDepartamentosPorCodigo($codDepartamento);
 
-    public static function buscaDepartamentosPorDescripcion($descDepartamento, $criterioBusqueda);
+    public static function buscaDepartamentosPorDescripcion($descDepartamento, $criterioBusqueda, $paginaActual, $numRegistrosPorPagina);
 
     public static function altaDepartamento($codDepartamento, $descDepartamento, $volumenNegocio);
 
@@ -28,5 +28,7 @@ interface DepartamentoDB {
 
     public static function validaCodNoExiste($codDepartamento);
 
-    public static function importarDepartamentos($fichero);
+    public static function importarDepartamentos($codDepartamento, $descDepartamento, $fechaCreacionDepartamento, $volumenNegocio, $fechaBajaDepartamento);
+
+    public static function contarDepartamentos($descDepartamento, $criterioBusqueda);
 }
