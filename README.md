@@ -35,34 +35,34 @@ Se creará una aplicación en PHP con la arquitectuca Modelo Vista Controlador. 
 
 ## v0.4 - 22/05/2019, 12:20 (Versión actual, inestable)
 
-En esta versión se ha implementado la paginación inestable (no está del todo bien), y se han modificado algunas funciones.
+En esta versión se ha implementado la paginación inestable (no está del todo bien), y se han modificado algunas funciones.  
 
-    * config
-      * Modificado config.php
-    * controller
-      * Añadido cEliminarDepartamento.php
-      * Modificado cInicio.php
-      * Añadido cModificarDepartamento.php
-      * Añadido cMostrarDepartamento.php
-      * Modificado cMtoDepartamentos.php
-      * Modificado cREST.php
-    * model
-      * DBPDO.php
-      * Departamento.php
-      * DepartamentoDB.php
-      * DepartamentoPDO.php
-      * Añadido RestDB.php
-      * Añadido RestPDO.php
-    * scriptDB
-      * 02_Insercion.sql
-    * view
-      * Añadido vEliminarDepartamento.php
-      * Añadido vModificarDepartamento.php
-      * Añadido vMostrarDepartamento.php
-      * Modificado MtoDepartamentos.php
-      * Modificado vREST.php
-    * Añadido .htaccess
-    * Modificado index.php
+  * config
+    * Modificado config.php
+  * controller
+    * Añadido cEliminarDepartamento.php
+    * Modificado cInicio.php
+    * Añadido cModificarDepartamento.php
+    * Añadido cMostrarDepartamento.php
+    * Modificado cMtoDepartamentos.php
+    * Modificado cREST.php
+  * model
+    * DBPDO.php
+    * Departamento.php
+    * DepartamentoDB.php
+    * DepartamentoPDO.php
+    * Añadido RestDB.php
+    * Añadido RestPDO.php
+  * scriptDB
+    * 02_Insercion.sql
+  * view
+    * Añadido vEliminarDepartamento.php
+    * Añadido vModificarDepartamento.php
+    * Añadido vMostrarDepartamento.php
+    * Modificado MtoDepartamentos.php
+    * Modificado vREST.php
+  * Añadido .htaccess
+  * Modificado index.php
 
 </div>
 
