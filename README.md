@@ -35,7 +35,7 @@ Se creará una aplicación en PHP con la arquitectuca Modelo Vista Controlador. 
 
 ## v0.4 - 22/05/2019, 12:20 (Versión actual, inestable)
 
-En esta versión se ha implementado la paginación inestable (no está del todo bien), y se han modificado algunas funciones.
+En esta versión se ha implementado la paginación inestable (no está del todo bien), y se han modificado algunas funciones.  
 
   * config
     * Modificado config.php
