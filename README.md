@@ -7,6 +7,7 @@
 3. [Versión 0.2.1](#caja3)
 4. [Versión 0.3](#caja4)
 5. [Versión 0.4](#caja5)
+6. [Versión 0.4.1](#caja6)
 
 Se creará una aplicación en PHP con la arquitectuca Modelo Vista Controlador. Los objetivos serán los siguientes:
 * Administración de usuarios.
@@ -31,9 +32,18 @@ Se creará una aplicación en PHP con la arquitectuca Modelo Vista Controlador. 
 - [x] Usar un servicio REST ajeno.
 - [x] Usar un servicio REST propio.
 
+<div id='caja6'>
+
+## v0.4.1 - 22/05/2019, 13:04 (Versión actual, inestable)
+
+  * controller
+    * Modificado cMtoDepartamentos.php
+
+</div>
+
 <div id='caja5'>
 
-## v0.4 - 22/05/2019, 12:20 (Versión actual, inestable)
+## v0.4 - 22/05/2019, 12:20 
 
 En esta versión se ha implementado la paginación inestable (no está del todo bien), y se han modificado algunas funciones.  
 
